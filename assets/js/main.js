@@ -220,6 +220,19 @@ Bg2.addEventListener("click", () => {
   changeBG();
 });
 
+(() => {
+  darkColorLightness = "95%";
+  whiteColorLightness = "20%";
+  lightColorLightness = "15%";
+
+  //add active class
+  Bg2.classList.add("active");
+  //remove active class
+  Bg1.classList.remove("active");
+  Bg3.classList.remove("active");
+  changeBG();
+})();
+
 Bg3.addEventListener("click", () => {
   darkColorLightness = "95%";
   whiteColorLightness = "10%";
