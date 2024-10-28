@@ -113,7 +113,7 @@ a {
   color: var(--color-dark);
 }
 
-.error{
+.error {
   display: none;
   color: red;
   font-weight: 900;
@@ -320,7 +320,6 @@ h3 {
 .home .intro img {
   margin-bottom: var(--m-1);
   max-width: 200px;
-
 }
 
 .home .intro .social-icons {
@@ -465,12 +464,11 @@ h3 {
   text-align: center;
 }
 
-.facts{
+.facts {
   margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .fact-item i {
@@ -788,7 +786,7 @@ h3 {
   transition: 0.3s;
   opacity: 0;
 }
-.portfolio-item .more-button img{
+.portfolio-item .more-button img {
   width: 100%;
 }
 
@@ -1220,7 +1218,6 @@ h3 {
   .about-img {
     text-align: center;
     margin-bottom: var(--m-2-5);
-      max-width: 300px;
   }
 
   .prices,
