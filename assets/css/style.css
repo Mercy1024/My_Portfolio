@@ -1220,6 +1220,7 @@ h3 {
   .about-img {
     text-align: center;
     margin-bottom: var(--m-2-5);
+      max-width: 300px;
   }
 
   .prices,
